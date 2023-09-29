@@ -20,11 +20,11 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto enlaces">
             <Nav className='p-2'><a style={linkStyle} href='#inicio'> Inicio</a></Nav>
-            <Nav className='p-2'><Link style={linkStyle} to='/nosotros' target='blank'>Quienes somos</Link></Nav>
+            <Nav className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
             <Nav className='p-2'><a style={linkStyle} href='#servicios'> Servicios</a></Nav>
             <Nav className='p-2'><a style={linkStyle} href='#portfolio'> Portfolio</a></Nav>
             <Nav className='p-2'><a style={linkStyle} href='#planes'> Planes</a></Nav>
-            <Nav className='p-2'><Link style={linkStyle} to='/blog' target='blank'>Blog</Link></Nav>
+            <Nav className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>
             <Nav className='p-2'><a style={linkStyle} href="http://wa.me/+543416165987" target='blank'  >Contacto</a></Nav>
           </Nav>
         </Navbar.Collapse>
