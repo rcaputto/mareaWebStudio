@@ -1,0 +1,93 @@
+
+.studioImagen{
+    width: 85%;
+    object-fit: cover;
+    
+}
+
+.copyPrincipal{
+    display: flex;
+    margin-top: 2rem;
+    padding: 2rem;
+    
+}
+
+
+.copyTitleCopy1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color:#e74c3c
+}
+.marca{
+    color: #f39c12
+}
+.copySubTitle{
+    font-size: 32px;
+    margin-bottom: 1rem;
+}
+.copyText{
+    line-height: 38px;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.beneficios li{
+    list-style-image: url('../Images/tilde.png'); 
+    text-align: justify;
+    
+    
+}
+.tituloCopy{
+    color:#e74c3c;
+}
+
+.subtitleCopy2{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+@media(min-width: 320px){
+    
+    .copyPrincipal{
+        flex-direction: column;
+        
+    }
+    .studioImagenCopy2{
+        width: 100%;
+        
+    }
+    .copyText{
+        line-height: 38px;
+        font-size: 20px;
+        text-align: justify;
+       
+        
+    }
+}
+@media(min-width: 768px){
+    
+    .studioImagen{
+        width: 75%;
+    }
+    
+    }
+    @media(min-width: 1024px){
+       
+        .copyPrincipal{
+            flex-direction: row;
+        }
+        
+        
+        
+        .studioImagenCopy2{
+            width: 35%;
+            
+        }
+        .copyText{
+            line-height: 38px;
+            font-size: 20px;
+            text-align: justify;
+            padding: 4rem;
+        }
+        }

@@ -1,0 +1,32 @@
+.title{
+    font-size: 48px;
+    margin: 2rem 0rem 4rem;
+    color: #34495e;
+    font-weight: bold;
+}
+.parrafoPorfolio{
+    font-size: 18px;
+    padding: 1rem;
+}
+.tituloPorfolio a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #f39c12;
+}
+@media(min-width:32px){
+    #cardLastWork{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(min-width: 768px){
+    #cardLastWork{
+        flex-direction: row;
+        
+    }
+}
+@media(min-width: 1024px){
+    #cardLastWork{
+        flex-direction: row;
+    }
+}

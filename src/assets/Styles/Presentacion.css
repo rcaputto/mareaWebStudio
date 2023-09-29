@@ -1,0 +1,133 @@
+.marketing-page {
+    background-image: url('/src/assets/Images/ImagenPrincipal.png');
+    background-size: cover;
+    background-position:center;
+    height: 100vh; /* Esto establece la altura del componente al 100% del alto de la ventana */
+    display: flex;
+  }
+  .masInfo{
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilos para el contenido superpuesto */
+  .content {
+    text-align: justify;
+    width: 43%;
+    background-color: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para hacer que el texto sea legible */
+    margin: 6rem 0 0 1rem;
+    margin-right: auto;
+    
+    border-radius: 10px;
+  }
+  .content
+  h1 {
+    font-size: 72px;
+    font-weight:bolder;
+    color: white;
+    
+  }
+  .content
+  p {
+    font-size: 28px;
+    
+    color: white;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para hacerlo responsive */
+  @media (max-width: 768px) {
+    .content {
+      width: 80%; /* Cambia el ancho del contenido en pantallas pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content {
+      width: 90%; /* Cambia el ancho del contenido en pantallas aún más pequeñas */
+    }
+  
+    h1 {
+      font-size: 28px; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
+    }
+  
+    p {
+      font-size: 16px; /* Cambia el tamaño de fuente del texto en pantallas pequeñas */
+    }
+  }
+/* .presentacion{
+    background-image: url('../Images/fondopng.png');
+    height: 85vh;
+} */
+/* #title{
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 72px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 12rem;
+    color: #34495e;
+    width: 65%;
+}
+#subTitle{
+    font-size: 42px;
+    font-weight: bold;
+    color: #f39c12; 
+    width: 65%;
+    margin-left: 12rem;
+}
+
+@media(min-width: 320px){
+    .presentacion{
+        width: 100%;
+        height: 90vh;
+        
+    }
+   #title{
+    margin:auto;
+    font-size: 42px;
+   }
+   #subTitle{
+    margin: auto;
+    font-size: 28px;
+}
+}
+@media(min-width:768px){
+    .presentacion{
+        width: 100%;
+        height: 60vh;
+    }
+    #title{
+        margin: auto;
+        font-size: 42px;
+       }
+       #subTitle{
+        margin: auto;
+        font-size:28px;
+    }
+}
+@media(min-width:1024px){
+    .presentacion{
+        width: 100%;
+        height: 60vh;
+    }
+    #title{
+        margin:auto;
+        font-size: 62px;
+       }
+       #subTitle{
+        margin: auto;
+        font-size: 28px;
+       }    
+    
+} */

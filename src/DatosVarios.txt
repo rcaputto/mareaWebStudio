@@ -1,0 +1,162 @@
+Gama de colores
+
+Color Principal: #34495e (Azul grisáceo)
+Color Secundario: #2ecc71 (Verde esmeralda)
+Color de Acento: #e74c3c (Rojo encendido)
+Color de Resalte: #f39c12 (Amarillo)
+Color de Fondo: #ecf0f1 (Gris claro)
+
+Gama de Colores 2: Fresco y Creativo
+
+Color Principal: #34495e (Azul grisáceo)
+Color Secundario: #2ecc71 (Verde esmeralda)
+Color de Acento: #e74c3c (Rojo encendido)
+Color de Resalte: #f39c12 (Amarillo)
+Color de Fondo: #ecf0f1 (Gris claro)
+
+
+
+Objetivo: Aumentar la visibilidad, generar interacción y atraer clientes potenciales para el estudio de desarrollo web y marketing digital.
+
+1. Definición de Temáticas:
+Segmenta tus contenidos en torno a temas relevantes para tu público objetivo. Algunas ideas pueden ser:
+
+Desarrollo web: Comparte consejos sobre diseño responsivo, optimización de velocidad, tendencias en diseño, etc.
+Marketing digital: Publica sobre estrategias de SEO, anuncios en redes sociales, marketing de contenidos, email marketing, etc.
+Casos de éxito: Muestra proyectos exitosos que hayas realizado para generar confianza.
+2. Calendario Editorial:
+Crea un calendario para mantener una frecuencia constante de publicaciones. Por ejemplo:
+
+Lunes: Consejos de desarrollo web.
+Martes: Destacando herramientas de marketing digital.
+Miércoles: Caso de éxito de un cliente.
+Jueves: Tips para mejorar la presencia en redes sociales.
+Viernes: Publicación divertida o inspiradora relacionada con el mundo digital.
+3. Formato de Contenido:
+Varía el formato para mantener el interés:
+
+Publicaciones de imágenes con consejos.
+Carousels explicativos sobre procesos de desarrollo.
+Videos cortos de tutoriales.
+Historias destacadas sobre el equipo y el proceso creativo.
+Live sessions respondiendo preguntas de la audiencia.
+4. Uso de Hashtags:
+Investiga y utiliza hashtags relevantes en cada publicación para ampliar tu alcance a un público interesado en tus servicios.
+
+5. Interacción con la Audiencia:
+Responde a todos los comentarios y mensajes directos. Fomenta la conversación y crea relaciones genuinas.
+
+6. Colaboraciones y Menciones:
+Colabora con otros profesionales o influencers en el campo del desarrollo web y marketing digital para ampliar tu audiencia.
+
+7. Concursos y Giveaways:
+Organiza concursos relacionados con el desarrollo web y el marketing digital. Esto puede aumentar la participación y la visibilidad.
+
+8. Testimonios y Reseñas:
+Comparte testimonios de clientes satisfechos o reseñas de tus servicios para construir credibilidad.
+
+9. Detrás de Escena:
+Muestra el proceso de trabajo detrás de un proyecto, desde la idea hasta la implementación.
+
+10. Contenido Educativo:
+Crea contenido que ayude a tu audiencia a entender mejor los conceptos de desarrollo web y marketing digital.
+
+11. Actualidad y Tendencias:
+Mantén a tu audiencia informada sobre las últimas tendencias y novedades en el mundo digital.
+
+12. Call to Action (CTA):
+Incluye CTAs en tus publicaciones, como "Visita nuestro sitio web", "Contáctanos para una consulta gratuita", etc.
+
+13. Análisis y Optimización:
+Regularmente analiza las métricas de tus publicaciones para ver qué contenido funciona mejor y ajusta tu estrategia en consecuencia.
+
+Recuerda que la coherencia, autenticidad y calidad son clave en una estrategia de contenidos exitosa en Instagram. Adapta estas ideas según tu estilo y la respuesta de tu audiencia.
+
+import Imagen from '../assets/Images/ecommerce2.jpg'
+import '../assets/Styles/Copy1.css';
+import '../assets/Styles/ProcesoTrabajo.css';
+import {Card, Container} from 'react-bootstrap';
+import { Slide, Fade } from 'react-awesome-reveal';
+
+export default function ProcesoTrabajo (){
+    return (
+        <>
+        <Container className="contenedor">
+            <div className="copyPrincipal">
+            <Slide
+            duration={'2500'}>
+            <img className="studioImagenCopy2" src={Imagen} alt='img'/>
+            </Slide>
+                <Card.Text className="copy copy-card copy2-card">
+                    
+                    <h2 className="copySubTitle subtitleCopy2 tituloProcesoTrabajo">Inicio del proceso Creativo</h2>
+                    <h4 className='workParagrhap'>En<span className='marca'> Marea Web Studio</span>, transformamos tus ideas en realidad con un enfoque estratégico y creativo. 
+                    Nuestro proceso se basa en tres pilares fundamentales:</h4>
+                    <Fade
+                    duration={'2500'}>
+                    <Card.Text className="copyText">
+                    <ul className="beneficios">
+                    <li><span className='tituloCopy'>Análisis Profundo:</span> Comenzamos sumergiéndonos en tu visión y objetivos.
+                    Estudiamos tu mercado y competencia para trazar un plan sólido. </li>
+                    <li><span className='tituloCopy'>Diseño Innovador:</span> Implementamos estrategias de marketing digital que maximizan tu presencia en línea.
+                    Desde SEO hasta redes sociales, te guiamos en cada paso del viaje digital. </li>
+                    <li><span className='tituloCopy'>Estrategia Integral:</span> Priorizamos la usabilidad y la interacción para lograr conversiones efectivas </li>
+                    </ul>
+                    </Card.Text>
+                    </Fade>
+                </Card.Text>
+            </div>
+        </Container>
+        </>
+    )
+}
+
+
+.primerBurbuja{
+    background-color: yellow;
+    height: 16vh;
+    border: 1px solid yellow;
+    border-radius: 100%;
+}
+.primerBurbuja img{
+    width: 6rem;
+    padding: 12px;
+}
+.primerProceso{
+    display: flex;
+    padding: 2rem;
+    margin: 0 4rem 0 4rem
+}
+
+.indice{
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+.copyProceso{
+   margin: 0 14rem 0 6rem ;
+   text-align: justify;
+   
+}
+@media(max-width:1010px){
+    .copyProceso{
+        display: block;
+    }
+    .primerProceso{
+        display: block;
+    }
+    .primerBurbuja img{
+        display: none;
+    }
+    .primerBurbuja{
+        display: none;
+    }
+    .indice{
+        font-size: 64px;
+        font-weight: bold;
+        width: 100%;
+    }
+   
+}
+          
+

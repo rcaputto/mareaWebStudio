@@ -1,0 +1,77 @@
+
+.contenedorProceso{
+    background-color: white;
+    
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.45)
+}
+
+.tituloProceso{
+    align-self: start;
+    margin-top: 2rem;
+}
+.primerProceso{
+    display: flex;
+    
+    padding: 0 2rem 0 2rem;
+    
+    
+}
+.copyPrimerProceso{
+    display: flex;
+    flex-direction: column;
+}
+.copyProceso{
+    width: 100%;
+    text-align: justify;
+    
+}
+.indice{
+    font-size: 92px;
+    font-weight: bold;
+    color: #f39c12;
+}
+
+@media(min-width:320px){
+    .contenedorProceso{
+        width: 100%;
+        
+    }
+    .primerProceso{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }    
+}
+@media(min-width:768px){
+    .contenedorProceso{
+        height: 45vh;
+    }
+    .primerProceso{
+        flex-direction: row;
+        margin-left: -5rem;
+        width: 45rem;
+    }
+    .indice{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+}  
+@media(min-width:1024px){
+    .contenedorProceso{
+        height: 30vh;
+        
+    }
+    .primerProceso{
+        flex-direction: row;
+        margin-left: -5rem;
+        width: 100%;
+    }
+    .indice{
+        margin: 0 3rem 3rem 5rem
+    
+    
+}
+}  

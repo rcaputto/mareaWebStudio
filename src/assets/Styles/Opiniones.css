@@ -1,0 +1,50 @@
+.tituloOpiniones{
+    font-size: 48px;
+    margin: 4rem 0rem 2rem;
+    color: #34495e;
+    font-weight: bold;
+}
+.cardOpiniones{
+    margin: 3rem 12rem 1rem ;
+    box-shadow: 11px 4px 5px -4px rgba(0,0,0,0.63);
+    -webkit-box-shadow: 11px 4px 5px -4px rgba(0,0,0,0.63);
+    -moz-box-shadow: 11px 4px 5px -4px rgba(0,0,0,0.63);
+}
+.copyOpiniones{
+    font-size: 16px;
+    padding: 1rem;
+    text-align: justify;
+}
+.estrellas{
+    width: 50%;
+    margin: 0 0 0 5rem;
+}
+.autorOpinion{
+    margin-left: 8rem;
+    font-weight: bold;
+}
+@media(min-width:320px){
+    .cardOpiniones{
+        margin-left: auto;
+        width:100%;
+        margin:4px 4px 8px 0
+    }
+    .estrellas{
+    width: 10rem;
+}
+}
+@media(min-width:768px){
+    .opinionesCards{
+        display: flex;
+       flex-direction: column;
+        width:100%;
+    }
+}
+@media(min-width:1024px){
+    .opinionesCards{
+        flex-direction: row;
+        margin-left: auto;
+        width:100%;
+    }
+}
+
