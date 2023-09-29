@@ -1,10 +1,10 @@
 .marketing-page {
-    background-image: url('/src/assets/Images/ImagenPrincipal.png');
-    background-size: cover;
-    background-position:center;
-    height: 100vh; /* Esto establece la altura del componente al 100% del alto de la ventana */
-    display: flex;
-  }
+  background-image: url('/src/assets/Images/imagenPrincipal.png');
+  background-size: cover;
+  background-position:center;
+  height: 100vh; /* Esto establece la altura del componente al 100% del alto de la ventana */
+  display: flex;
+}
   .masInfo{
     text-decoration: none;
     color: white;
@@ -14,7 +14,7 @@
   .content {
     text-align: justify;
     width: 43%;
-    background-color: rgba(255, 255, 255, 0.5); /* Fondo semi-transparente para hacer que el texto sea legible */
+    background-color: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para hacer que el texto sea legible */
     margin: 6rem 0 0 1rem;
     margin-right: auto;
     
