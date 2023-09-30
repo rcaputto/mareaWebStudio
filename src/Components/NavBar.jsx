@@ -21,7 +21,12 @@ function NavBar() {
           <Nav className="ms-auto enlaces">
             <Nav className='p-2'><a style={linkStyle} href='#inicio'> Inicio</a></Nav>
             <Nav className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
-            <Nav className='p-2'><a style={linkStyle} href='#servicios'> Servicios</a></Nav>
+            <NavDropdown title="Servicios" id="basic-nav-dropdown">
+              <NavDropdown.Item href='/servicios/desarrollo-web'>Desarrollo Web</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Marketing Digital</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Landing Page</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Tienda en Línea</NavDropdown.Item>
+            </NavDropdown>
             <Nav className='p-2'><a style={linkStyle} href='#portfolio'> Portfolio</a></Nav>
             <Nav className='p-2'><a style={linkStyle} href='#planes'> Planes</a></Nav>
             <Nav className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>

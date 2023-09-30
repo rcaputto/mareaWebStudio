@@ -13,13 +13,10 @@ export default function Copy1(){
             duration={'2500'}
             >
                 <Card.Text className="copy copy-card">
-                    <h1 className="copyTitleCopy1">Construyendo tu Presencia en Línea </h1>
-                    <h2 className="copySubTitleCopy1">Soluciones de Desarrollo Web a Medida</h2>
+                    <h1 className="copyTitleCopy1">Potenciando tu Presencia en Línea </h1>
+                    <h2 className="copySubTitleCopy1">Desarrollo Web a Medida para Tu Éxito Digital</h2>
                     <div className="copyText">
-                    En <span className='marca'>Marea Web Studio</span>, entendemos que tu presencia en línea es crucial en el mundo digital actual.
-                    Por ello, fusionamos la creatividad del desarrollo web con el poder del marketing digital para llevar tu marca al siguiente nivel en el mundo digital.  
-                    Nuestro equipo apasionado de expertos en diseño, desarrollo y estrategia, se dedica a convertir tus visiones en sitios web dinámicos y funcionales.
-          Ya sea que necesites una página web personal, un sitio de comercio electrónico o una plataforma interactiva, estamos aquí para transformar tus ideas en realidad.
+                    En <span className='marca'>Marea Web Studio</span>, reconocemos la importancia de tu presencia en línea en el mundo digital actual. Es por eso que combinamos la creatividad del desarrollo web con el poder del marketing digital para llevar tu marca al siguiente nivel en la era digital. Nuestro equipo apasionado de expertos en diseño, desarrollo y estrategia se dedica a convertir tus visiones en sitios web dinámicos y altamente funcionales. Ya sea que necesites una página web personal, una tienda en línea o una plataforma interactiva, estamos aquí para convertir tus ideas en una realidad en línea.
                     </div>
                 </Card.Text>
                 </Slide>

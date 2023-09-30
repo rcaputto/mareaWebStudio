@@ -5,6 +5,7 @@ import QuienesSomos from './Pages/QuienesSomos';
 import Blog from './Pages/Blog/Blog';
 
 import MainBlog from './Pages/Blog/MainBlog';
+import DesarrolloWeb from './Pages/Servicios/DesarrolloWeb';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
           <Route path='/nosotros' element = {<QuienesSomos/>}/>
           <Route path='/blog' element = {<MainBlog/>}/>
           <Route path='/blog/:id' element = {<Blog/>}/>
+          <Route path='/servicios/desarrollo-web' element = {<DesarrolloWeb/> }/>
         </Routes>
       </Router>
     </>

@@ -1,0 +1,26 @@
+.imagenPrincipal{
+    width: 85%;
+    height: 60vh;
+    object-fit: cover;
+    margin: auto;
+}
+.imagenSecundaria{
+    width: 70%;
+}
+.serviciosContainer{
+    margin-top: 1rem;
+    
+}
+.serviciosContainer h1{
+    font-size:72px;
+    font-weight: bold;
+}
+.serviciosContainer h2{
+    font-size: 32px;
+    margin-bottom: 4rem;
+    
+}
+p{
+    font-size: 24px;
+    text-align: justify;
+}
