@@ -5,13 +5,14 @@ import imagen6 from '../assets/Images/FondoNosotros.jpg'
 import logo from '../assets/Images/logoGrande.png'
 import '../assets/Styles/QuienesSomos.css'
 import FooterWithLogo from './FooterWithLogo';
+import NavBarNewLink from '../Components/NavBarNewLink';
 
 
 export default function QuienesSomos() {
 
     return (
         <>
-            
+           <NavBarNewLink/> 
             <div className='nosotrosImagenTranslucida'>
                 <img src={imagen6} alt='img' />
                 <div className='logoNosotros'>

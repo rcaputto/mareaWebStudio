@@ -1,8 +1,10 @@
-import { Container } from 'react-bootstrap';
+import { Container, Card } from 'react-bootstrap';
 import { useState, useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import FindBlogPostById from '../../assets/Servicios/FindBlogPostById';
 import NavBarNewLink from '../../Components/NavBarNewLink';
+import "../../assets/Styles/Blog.css"
+import FooterWithLogo from '../FooterWithLogo'
 
 
 
@@ -33,8 +35,53 @@ export default function BlogCard() {
         return (
             <>
             <NavBarNewLink/>
-                <h1>{blog.titulo}</h1>
-                <h1>{blog.texto}</h1>
+            <article className='article'>
+            <Card>
+                <Card.Img className='mainImg' variant="top" src={blog.imagen} />
+                    <Card.Body>
+                        <Card.Title className='blogTitulo'>
+                            {blog.titulo}
+                        </Card.Title>
+                        <Card.Text className='blogTexto'>
+                            {blog.texto}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo1}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo1}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo2}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo2}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo3}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo3}
+                        </Card.Text>
+                        <Card.Img className='mainImg secondImg' variant="top" src={blog.imagen2} />
+                        <Card.Text className='subtitulo'>{blog.subtitulo4}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo4}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo5}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo5}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo6}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo6}
+                        </Card.Text>
+                        <Card.Text className='subtitulo'>{blog.subtitulo7}</Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.parrafo7}
+                        </Card.Text>
+                        <Card.Text className='blogTexto'>
+                            {blog.cierre}
+                        </Card.Text>
+                    </Card.Body>
+            </Card>
+            </article>
+            <FooterWithLogo/>
+                <article className='article'></article>
             </>
         )
     }

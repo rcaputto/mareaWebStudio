@@ -1,0 +1,29 @@
+.mainImg{
+    margin: auto;
+    height: 75vh;
+    width: 90%;
+    object-fit: cover;
+}
+.secondImg{
+    width: 50%;
+    margin: 2rem 0 2rem 0;
+}
+.blogTitulo{
+    font-size: 45px;
+    font-weight: bold;
+}
+.blogTexto{
+    margin-top: 2rem;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 2rem 0 2rem;
+}
+.subtitulo{
+    font-size: 24px;
+    text-align:left;
+    margin-left: 2rem;
+    font-weight: bold;
+}
+.article{
+    margin: 0 1rem 0 1rem;
+}
