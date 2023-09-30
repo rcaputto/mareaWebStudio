@@ -35,13 +35,13 @@ export default function BlogCard() {
         return (
             <>
             <NavBarNewLink/>
-            <article className='article'>
+            
             <Card>
-                <Card.Img className='mainImg' variant="top" src={blog.imagen} />
+                <img className='mainImg' src={blog.imagen} />
                     <Card.Body>
-                        <Card.Title className='blogTitulo'>
+                        <h1 className='blogTitulo'>
                             {blog.titulo}
-                        </Card.Title>
+                        </h1>
                         <Card.Text className='blogTexto'>
                             {blog.texto}
                         </Card.Text>
@@ -57,7 +57,7 @@ export default function BlogCard() {
                         <Card.Text className='blogTexto'>
                             {blog.parrafo3}
                         </Card.Text>
-                        <Card.Img className='mainImg secondImg' variant="top" src={blog.imagen2} />
+                        <img className='mainImg secondImg' src={blog.imagen2} />
                         <Card.Text className='subtitulo'>{blog.subtitulo4}</Card.Text>
                         <Card.Text className='blogTexto'>
                             {blog.parrafo4}
@@ -79,7 +79,7 @@ export default function BlogCard() {
                         </Card.Text>
                     </Card.Body>
             </Card>
-            </article>
+            
             <FooterWithLogo/>
                 <article className='article'></article>
             </>

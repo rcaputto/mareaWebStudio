@@ -7,9 +7,13 @@
 .secondImg{
     width: 50%;
     margin: 2rem 0 2rem 0;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .blogTitulo{
-    font-size: 45px;
+    margin-top: 2rem;
+    font-size: 40px;
     font-weight: bold;
 }
 .blogTexto{
@@ -24,6 +28,70 @@
     margin-left: 2rem;
     font-weight: bold;
 }
-.article{
-    margin: 0 1rem 0 1rem;
+
+/* IMAGEN PRINCIPAL*/
+.blog-page {
+  background-image: url('/src/assets/Images/Blog/blogBack.jpg');
+  background-size: cover;
+  background-position:center;
+  height: 100vh; 
+  display: flex;
+  margin-bottom: 4rem;
 }
+.blogContent {
+    text-align: justify;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para hacer que el texto sea legible */
+    margin: 6rem 0 0 1rem;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  .blogContent
+  h1 {
+    width: 90%;
+    margin: auto;
+    font-size: 64px;
+    font-weight:bolder;
+    color: black;
+    text-align: center;
+  }
+  .blogContent
+  p {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para hacerlo responsive */
+  @media (max-width: 768px) {
+    .content {
+      width: 80%; /* Cambia el ancho del contenido en pantallas pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content {
+      width: 90%; /* Cambia el ancho del contenido en pantallas aún más pequeñas */
+    }
+  
+    h1 {
+      font-size: 28px; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
+    }
+  
+    p {
+      font-size: 16px; /* Cambia el tamaño de fuente del texto en pantallas pequeñas */
+    }
+  }

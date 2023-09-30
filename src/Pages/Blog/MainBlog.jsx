@@ -2,12 +2,19 @@ import BlogData from '../../assets/Data/BlogData';
 import NavBarNewLink from '../../Components/NavBarNewLink';
 import BlogCard from '../../Components/BlogCard';
 import { Row } from 'react-bootstrap';
+import '../../assets/Styles/Blog.css'
 
 
 function MainBlog() {
   return (
     <>
     <NavBarNewLink/>
+    <div className="blog-page">
+             <div className="blogContent">
+                <h1>Bienvenido a Nuestro Blog: Navega por el Mundo del Desarrollo Web y el Marketing Digital</h1>
+                 <p>Descubre las Tendencias, Consejos y Estrategias Más Recientes para Impulsar Tu Presencia en Línea </p>
+                </div>
+                </div>
     <Row xs = {1} sm ={2} md ={3} lg={4}>
     {BlogData?.map((data)=>(
         <BlogCard
