@@ -65,33 +65,25 @@
     color: black;
   }
   
-  button {
-    background-color: #007BFF;
-    color: #fff;
-    font-size: 18px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+ 
   /* Estilos para hacerlo responsive */
   @media (max-width: 768px) {
-    .content {
-      width: 80%; /* Cambia el ancho del contenido en pantallas pequeñas */
+    .blogContent {
+      width: 70%; /* Cambia el ancho del contenido en pantallas pequeñas */
     }
   }
   
-  @media (max-width: 480px) {
-    .content {
-      width: 90%; /* Cambia el ancho del contenido en pantallas aún más pequeñas */
+  @media (min-width: 320px) and (max-width:768px) {
+    .blogContent {
+      width: 100%;
+       /* Cambia el ancho del contenido en pantallas aún más pequeñas */
     }
   
-    h1 {
-      font-size: 28px; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
+    .blogContent h1 {
+      font-size: 36px; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
     }
   
-    p {
-      font-size: 16px; /* Cambia el tamaño de fuente del texto en pantallas pequeñas */
+    .blogContent p {
+      font-size: 22px; /* Cambia el tamaño de fuente del texto en pantallas pequeñas */
     }
   }
