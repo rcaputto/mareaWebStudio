@@ -113,15 +113,17 @@
         flex-direction: row;
     }
     .copyNosotros{
-        font-size: 24px;
+        font-size: 20px;
         padding:6rem;
         text-align: justify;
         line-height: 32px;
         color:#34495e
     }
     .imagenNosotros{
-        width: 40%;
-        margin: 2rem;
+        width: 25%;
+        margin-right: 2rem;
+        margin-bottom: 6rem;
+        border-radius: 50%;
         
     }
 }

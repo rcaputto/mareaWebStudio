@@ -1,6 +1,11 @@
 import '../assets/Styles/Presentacion.css';
+import { useEffect } from 'react';
 
 export default function Presentacion() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Esto desplazará la página hacia arriba cuando se cargue esta página
+  }, []);
 
   return (
 

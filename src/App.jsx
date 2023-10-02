@@ -6,6 +6,9 @@ import Blog from './Pages/Blog/Blog';
 
 import MainBlog from './Pages/Blog/MainBlog';
 import DesarrolloWeb from './Pages/Servicios/DesarrolloWeb';
+import MarketingDigital from './Pages/Servicios/MarketingDigital';
+import LandingPage from './Pages/Servicios/LandingPage';
+import TiendaEnLinea from './Pages/Servicios/TiendaEnLinea';
 
 function App() {
   
@@ -20,7 +23,9 @@ function App() {
           <Route path='/blog' element = {<MainBlog/>}/>
           <Route path='/blog/:id' element = {<Blog/>}/>
           <Route path='/servicios/desarrollo-web' element = {<DesarrolloWeb/> }/>
-          
+          <Route path='/servicios/marketing-digital' element = {<MarketingDigital/> }/>
+          <Route path='/servicios/landing-page' element = {<LandingPage /> }/>
+          <Route path='/servicios/tienda-en-linea' element = {<TiendaEnLinea /> }/>
         </Routes>
       </Router>
     </>

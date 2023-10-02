@@ -6,9 +6,15 @@ import logo from '../assets/Images/logoGrande.png'
 import '../assets/Styles/QuienesSomos.css'
 import FooterWithLogo from './FooterWithLogo';
 import NavBarNewLink from '../Components/NavBarNewLink';
+import { useEffect } from "react";
+import fotoPerfil from '../assets/Images/fotoPerfil.jpeg'
 
 
 export default function QuienesSomos() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); // Esto desplazará la página hacia arriba cuando se cargue esta página
+      }, []);
 
     return (
         <>
@@ -26,7 +32,7 @@ export default function QuienesSomos() {
             </div>
             <div className='nosotros'>
                 <h3 className='copyNosotros'>{CardImageTextData[1].texto}</h3>
-                <img className='imagenNosotros' src={imagen5} alt='img' />
+                <img className='imagenNosotros' src={fotoPerfil} alt='img' />
             </div>
             <div className='nosotros'>
                 <img className='imagenNosotros' src={imagen} alt='img' />

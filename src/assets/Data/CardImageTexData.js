@@ -5,7 +5,7 @@ const CardImageTextData =[{
 },
 {
     id: 2,
-    texto:"Nuestro desarrollador web full stack especializado en React JS combina habilidades técnicas con una comprensión profunda de las necesidades humanas. Su pasión por la tecnología se refleja en cada línea de código, creando sitios web funcionales y atractivos.",
+    texto:"Mi nombre es Rodolfo, soy Programador Web Full Stack y el encargado del desarrollo web dentro de Marea. Me encanta programar y buscar fucionalidades centradas en el atractivo estético. Mi aporte al estudio no es exclusivamente el desarrollo. Cuento con un background heterogéneo que me permite lograr un enfoque particular a las necesidades. Antes de ingresar al mundo de la programación, transité algunos años por el universo académico. Soy Licenciado en Ciencias Sociales y Humanidades, terminé una Maestría en la misma especialidad, aunque aún no he completado mi tesis. Esta experiencia me dió excelentes herramientas de investigación, que actualmente puedo aplicar en el desarrollo web para poder definir las necesidades de nuestros clientes. Mi vínculo con la tecnología viene del mundo laboral. Hace muchos años que trabajo en el rubro de las telecomunicaciones, lo cual me permitió aprender la parte hard para así tener un concepto integral del universo it.",
     imagen:''
 },
 {

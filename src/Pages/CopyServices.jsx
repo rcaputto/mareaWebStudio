@@ -8,9 +8,7 @@ import { Link } from "react-router-dom";
 export default function CopyServices() {
   const linkStyle = {
     textDecoration: 'none',
-    color: '#34495e',
     color: 'white',
-
   }
   return (
     <>
@@ -51,14 +49,16 @@ export default function CopyServices() {
                 <Card.Text id="parrafoServices" className="parrafo">Haz que tu voz sea escuchada en el ruido digital. A través de estrategias de marketing digital personalizadas, aumentamos tu visibilidad, generamos leads y construimos relaciones duraderas con tu audiencia. Ya sea SEO,
                   publicidad en redes sociales o marketing de contenidos, estamos aquí para hacer brillar tu marca.
                 </Card.Text></Col>
-            </Slide></Col>
+            </Slide>
+            <Button><Link style={linkStyle} to='/servicios/marketing-digital' >Más info</Link></Button>
+            </Col>
         </Row>
         <Row>
           <Col sm className="fondoServicios mDigital">
             <Slide
               direction="up">
 
-              <Col sm><h1 className="titulo">E-Commerce</h1>
+              <Col sm><h1 className="titulo">Tienda en línea</h1>
                 <Card.Text id="parrafoServices" className="parrafo">
                   Lleva tu negocio al mundo digital con una tienda en línea que cautiva y convierte. Diseñamos plataformas de comercio electrónico que no solo se ven increíbles, sino que también están optimizadas para el éxito. Desde la navegación
                   fluida hasta el proceso de compra seguro, creamos experiencias de compra en línea excepcionales
@@ -66,8 +66,8 @@ export default function CopyServices() {
                 <Card.Text>
                 </Card.Text>
               </Col>
-
-            </Slide>
+              </Slide>
+              <Button><Link style={linkStyle} to='/servicios/tienda-en-linea' >Más info</Link></Button>
           </Col>
           <Col sm className="fondoServicios">
             <Slide
@@ -78,6 +78,7 @@ export default function CopyServices() {
                   Cada elemento está diseñado estratégicamente para guiar a tus visitantes hacia el objetivo final.
                 </Card.Text></Col>
             </Slide>
+            <Button><Link style={linkStyle} to='/servicios/landing-page' >Más info</Link></Button>
           </Col>
         </Row>
         <Card.Text className="callToAction" >
