@@ -3,12 +3,15 @@
     height: 60vh;
     object-fit: cover;
     margin: auto;
+    margin-bottom: 2rem;
 }
 .imagenSecundaria{
     width: 70%;
+    margin: 2rem 0 2rem 0;
 }
 .serviciosContainer{
-    margin-top: 1rem;
+    
+    background-color: #f4f4f4;
     
 }
 .serviciosContainer h1{
@@ -23,4 +26,23 @@
 .serviciosContainer p{
     font-size: 24px;
     text-align: justify;
+}
+#parrafo1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 780px){
+    .serviciosContainer{
+        margin: 1rem 4rem 0 4rem;
+    }
+    .serviciosContainer h1{
+        font-size:64px;
+        font-weight: bold;
+    }
+    .serviciosContainer h2{
+        font-size: 28px;
+        margin-bottom: 4rem;
+        
+    }
 }

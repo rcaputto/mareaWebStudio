@@ -1,10 +1,14 @@
 import ServiciosCard from "../../Components/ServiciosCard";
 import ServiciosData from "../../assets/Data/ServiciosData";
+import { useEffect } from "react";
 
 
 export default function DesarrolloWeb (){
     const data = ServiciosData[0]
     console.log ('DATA DESARROLLO', data)
+    useEffect(() => {
+        window.scrollTo(0, 0); // Esto desplazará la página hacia arriba cuando se cargue esta página
+      }, []);
     return (
         <>
             <ServiciosCard

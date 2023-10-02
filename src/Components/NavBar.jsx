@@ -22,7 +22,7 @@ function NavBar() {
             <Nav className='p-2'><a style={linkStyle} href='#inicio'> Inicio</a></Nav>
             <Nav className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
             <NavDropdown title="Servicios" id="basic-nav-dropdown">
-              <NavDropdown.Item ><Link style={linkStyle} to='/servicios/desarrollo-web' >Servicios</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link style={linkStyle} to='/servicios/desarrollo-web' >Desarrollo Web</Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Marketing Digital</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Landing Page</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Tienda en Línea</NavDropdown.Item>

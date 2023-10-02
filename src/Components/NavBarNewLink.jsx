@@ -19,6 +19,13 @@ function NavBarNewLink() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto enlaces">
             <Nav className='p-2'><Link style={linkStyle} to='/' >Home</Link></Nav>
+            <NavDropdown title="Servicios" id="basic-nav-dropdown">
+              <NavDropdown.Item ><Link style={linkStyle} to='/servicios/desarrollo-web' >Desarrollo Web</Link></NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Marketing Digital</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Landing Page</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Tienda en Línea</NavDropdown.Item>
+            </NavDropdown>
+            <Nav className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>
             <Nav className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
             <Nav className='p-2'><a style={linkStyle} href="http://wa.me/+543416165987" >Contacto</a></Nav>
           </Nav>
