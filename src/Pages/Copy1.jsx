@@ -2,6 +2,7 @@ import { Container, Card } from "react-bootstrap";
 import studio from '../assets/Images/studio.jpg';
 import '../assets/Styles/Copy1.css';
 import  {Slide} from "react-awesome-reveal";
+import BurbujaWhatsapp from "../Components/BurbujaWhatsapp";
 
 export default function Copy1(){
 
@@ -29,6 +30,7 @@ export default function Copy1(){
 
             </div>
         </Container>
+        <BurbujaWhatsapp/>
        </> 
     )
 }

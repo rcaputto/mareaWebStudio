@@ -4,6 +4,7 @@ import NavBarNewLink from '../Components/NavBarNewLink'
 import FooterWithLogo from '../Pages/FooterWithLogo'
 import ButtonContacto from './ButtonContacto'
 import ScrollButton from './ScrollButton'
+import BurbujaWhatsapp from './BurbujaWhatsapp'
 
 export default function ServiciosCard ({id, imagen1, imagen2, titulo, subtitulo, descripcion, parrafo1, parrafo2, parrafo3, parrafo4, parrafo5, cierre, item1, item2, item3, item4, item5}){
     return(
@@ -14,6 +15,7 @@ export default function ServiciosCard ({id, imagen1, imagen2, titulo, subtitulo,
         <h1 className='tituloServicios'>{titulo}</h1>
         </div>
         </div>
+        <BurbujaWhatsapp/>
         <article className='serviciosContainer'>
             <h2>{subtitulo}</h2>
             <article className = 'parteI'>

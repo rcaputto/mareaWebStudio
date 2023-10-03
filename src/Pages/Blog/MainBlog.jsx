@@ -6,6 +6,7 @@ import '../../assets/Styles/Blog.css';
 import {useEffect} from 'react';
 
 
+
 function MainBlog() {
   useEffect(() => {
     window.scrollTo(0, 0); // Esto desplazará la página hacia arriba cuando se cargue esta página

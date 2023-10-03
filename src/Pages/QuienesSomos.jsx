@@ -9,6 +9,7 @@ import NavBarNewLink from '../Components/NavBarNewLink';
 import { useEffect } from "react";
 import quienesSomos from '../assets/Images/quinesSomos.png'
 import ButtonContacto from "../Components/ButtonContacto";
+import BurbujaWhatsap from "../Components/BurbujaWhatsapp";
 
 
 export default function QuienesSomos() {
@@ -26,6 +27,7 @@ export default function QuienesSomos() {
                 <img  src={logo}  alt='img'/>
                 </div>
             </div>
+            <BurbujaWhatsap/>
             <div className='introCopy'>
                 <h3>
                 En <span className='marca'>Marea Web Studio</span>  nos dedicamos a facilitar la inserción y el crecimiento en el mundo digital para emprendedores y empresas. 

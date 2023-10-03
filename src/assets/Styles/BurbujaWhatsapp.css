@@ -1,0 +1,20 @@
+.social-bar-whatsapp {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 14rem;
+    margin-left: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    z-index: 1000;
+    width: 4%;
+    border-radius: 5%;
+
+  }
+  .social-bar-whatsapp img{
+    width: 5rem;
+    object-fit: cover;
+    
+}
