@@ -9,6 +9,7 @@ import ProcesoTrabajo from './ProcesoTrabajo';
 import Contacto from './Contacto';
 import Footer from './FooterWithLogo';
 import Planes from './Planes';
+import ScrollButton from '../Components/ScrollButton';
 
 
 
@@ -27,6 +28,7 @@ export default function Principal() {
             <ProcesoTrabajo/>
             <Planes/>
             <Contacto/>
+            <ScrollButton/>
             <Footer/>
         </>
     )

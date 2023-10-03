@@ -5,6 +5,7 @@ import FindBlogPostById from '../../assets/Servicios/FindBlogPostById';
 import NavBarNewLink from '../../Components/NavBarNewLink';
 import "../../assets/Styles/Blog.css"
 import FooterWithLogo from '../FooterWithLogo'
+import ScrollButton from '../../Components/ScrollButton';
 
 
 
@@ -79,7 +80,7 @@ export default function BlogCard() {
                         </Card.Text>
                     </Card.Body>
             </Card>
-            
+            <ScrollButton/>
             <FooterWithLogo/>
                 <article className='article'></article>
             </>

@@ -2,6 +2,12 @@ import imagenDesarrolloWeb from "../Images/Servicios/desarrolloWeb.jpg";
 import imagenDesarrolloWeb1 from "../Images/Servicios/desarrolloWeb1.jpg";
 import tienda from '../Images/Servicios/tienda.jpg';
 import tienda1 from '../Images/Servicios/tienda1.jpg';
+import marketingDigital from '../Images/Servicios/marketingDigital.png';
+import marketingDigitalI from '../Images/Servicios/marketingDigitalI.png';
+import landingPage from '../Images/Servicios/landingPage.png';
+import landingPageI from '../Images/Servicios/landingPageI.png';
+
+
 
 const ServiciosData =[{
     id: 1,
@@ -11,17 +17,23 @@ const ServiciosData =[{
     subtitulo:`Estamos para ayudarte a destacar en línea y llevar tus ideas a la realidad digital`,
     descripcion:`Desde sitios web cautivadores hasta plataformas interactivas, en Marea Web Studio creamos experiencias en línea que destacan en el ámbito local. Nos dedicamos a convertir tus ideas en un sitio web fluido, altamente responsivo y estéticamente impresionante, adaptado a las necesidades de tu audiencia.
     Nos apasiona transformar tus conceptos en sitios web excepcionales que no solo sean visualmente atractivos, sino también altamente funcionales y optimizados para brindar resultados sobresalientes. En cada proyecto, nos esforzamos por crear un diseño web responsivo que se adapte perfectamente a cualquier dispositivo, asegurando una experiencia de usuario excepcional en computadoras de escritorio, tabletas y teléfonos móviles.`,
-    parrafo1:`Beneficios de Nuestros Servicios de Desarrollo Web:`,
-    parrafo2:`Diseño Web de Impacto. Creamos sitios web visualmente atractivos que capturan la esencia de tu marca y dejan una impresión duradera`,
-    parrafo3:` Experiencia de Usuario de Primer Nivel. Priorizamos la usabilidad y la interacción, garantizando una experiencia en línea excepcional. La seguridad es una prioridad para nosotros, y por eso implementamos medidas de protección avanzadas para salvaguardar tus datos y la información de tus clientes. Además, ofrecemos un diseño web personalizado que refleje la identidad única de tu marca y facilitamos la integración de tus perfiles de redes sociales para una presencia en línea efectiva.`,
-    parrafo4:`Tecnología Adaptativa. Desarrollamos sitios web que se ajustan a dispositivos móviles y pantallas de todos los tamaños, asegurando una presencia web completa. Nos apasiona transformar tus conceptos en sitios web excepcionales que no solo sean visualmente atractivos, sino también altamente funcionales y optimizados para brindar resultados sobresalientes. En cada proyecto, nos esforzamos por crear un diseño web responsivo que se adapte perfectamente a cualquier dispositivo, asegurando una experiencia de usuario excepcional en computadoras de escritorio, tabletas y teléfonos móviles.`,
-    parrafo5:` Optimización para Motores de Búsqueda. Nuestro compromiso con la excelencia incluye la optimización SEO desde el principio, lo que garantiza que tu sitio web tenga una base sólida para un alto rendimiento en los motores de búsqueda. También priorizamos la velocidad y el rendimiento, lo que significa que los tiempos de carga serán rápidos, y tu sitio web funcionará sin problemas.`,
-    cierre:`Nuestros servicios no se limitan al lanzamiento de tu sitio web, ya que también ofrecemos mantenimiento continuo para garantizar que se mantenga actualizado y funcione sin problemas. En resumen, estamos comprometidos en proporcionarte soluciones de desarrollo web que te ayuden a tener éxito en línea. Confía en Marea Web Studio para elevar tu presencia en línea y llevar tu visión a la realidad digital. ¡Contáctanos hoy mismo para comenzar tu proyecto de desarrollo web!`,
+    item1:`Diseño Web de Impacto.`,
+    item2:``,
+    item3:`Tecnología Adaptativa.`,
+    item4:`Optimización para Motores de Búsqueda.`,
+    item5:`Mantenimiento Continuo`,
+    parrafo1:`Creamos sitios web visualmente atractivos que capturan la esencia de tu marca y dejan una impresión duradera`,
+    parrafo2:` `,
+    parrafo3:`  Priorizamos la usabilidad y la interacción, garantizando una experiencia en línea excepcional. La seguridad es una prioridad para nosotros, y por eso implementamos medidas de protección avanzadas para salvaguardar tus datos y la información de tus clientes. Además, ofrecemos un diseño web personalizado que refleje la identidad única de tu marca y facilitamos la integración de tus perfiles de redes sociales para una presencia en línea efectiva.`,
+    parrafo4:` Desarrollamos sitios web que se ajustan a dispositivos móviles y pantallas de todos los tamaños, asegurando una presencia web completa. Nos apasiona transformar tus conceptos en sitios web excepcionales que no solo sean visualmente atractivos, sino también altamente funcionales y optimizados para brindar resultados sobresalientes. En cada proyecto, nos esforzamos por crear un diseño web responsivo que se adapte perfectamente a cualquier dispositivo, asegurando una experiencia de usuario excepcional en computadoras de escritorio, tabletas y teléfonos móviles.`,
+    parrafo5:`Nuestros servicios no se limitan al lanzamiento de tu sitio web, ya que también ofrecemos mantenimiento continuo para garantizar que se mantenga actualizado y funcione sin problemas. En resumen, estamos comprometidos en proporcionarte soluciones de desarrollo web que te ayuden a tener éxito en línea. Confía en Marea Web Studio para elevar tu presencia en línea y llevar tu visión a la realidad digital. ¡Contáctanos hoy mismo para comenzar tu proyecto de desarrollo web!  `,
+    
+    cierre:`Nuestro compromiso con la excelencia incluye la optimización SEO desde el principio, lo que garantiza que tu sitio web tenga una base sólida para un alto rendimiento en los motores de búsqueda. También priorizamos la velocidad y el rendimiento, lo que significa que los tiempos de carga serán rápidos, y tu sitio web funcionará sin problemas.`,
 },
 {
     id: 2 ,
-    imagen1: imagenDesarrolloWeb,
-    imagen2: imagenDesarrolloWeb,
+    imagen1: marketingDigitalI,
+    imagen2: marketingDigital,
     titulo: `Impulsa tu Presencia en Línea con Nuestros Servicios de Marketing Digital`,
     subtitulo:`Nos orientamos a los resultados`,
     descripcion:`En nuestro estudio de desarrollo web y marketing digital, te ofrecemos una amplia gama de servicios de marketing digital que están diseñados para llevar tu negocio al siguiente nivel en línea. Nos especializamos en estrategias de marketing digital personalizadas que se adaptan a tus necesidades específicas y objetivos comerciales.`,
@@ -45,8 +57,8 @@ const ServiciosData =[{
 },
 {
     id: 3,
-    imagen1: imagenDesarrolloWeb,
-    imagen2: imagenDesarrolloWeb,
+    imagen1: landingPageI,
+    imagen2: landingPage,
     titulo: `Landing Pages Persuasivas para Conquistar a tus Visitantes`,
     subtitulo:`Transformamos Visitantes en Clientes Leales`,
     descripcion:`En nuestro estudio de desarrollo web y marketing digital, ofrecemos servicios de creación de landing pages que están diseñadas para atraer la atención, impulsar las conversiones y maximizar el retorno de inversión (ROI). Nuestro enfoque se basa en la combinación de diseño cautivador y estrategias de marketing efectivas para garantizar que tus landing pages cumplan con tus objetivos comerciales.`,
@@ -60,7 +72,7 @@ const ServiciosData =[{
     parrafo3:`Aplicamos las mejores prácticas de SEO para asegurarnos de que tus landing pages se clasifiquen bien en los motores de búsqueda y atraigan tráfico orgánico.`,
     parrafo4:`Diseñamos formularios y llamados a la acción estratégicos para aumentar las conversiones y la generación de leads.`,
     parrafo5:` Implementamos herramientas de seguimiento y analítica para medir el rendimiento de tus landing pages y tomar decisiones basadas en datos.`,
-    cierre:`En [Nombre de tu Empresa], entendemos la importancia de una landing page efectiva en la conversión de visitantes en clientes. Nuestras landing pages cautivadoras y estratégicamente diseñadas son la clave para impulsar el éxito de tu negocio en línea.
+    cierre:`En Marea Web Studio, entendemos la importancia de una landing page efectiva en la conversión de visitantes en clientes. Nuestras landing pages cautivadoras y estratégicamente diseñadas son la clave para impulsar el éxito de tu negocio en línea.
 
     Ya sea que estés buscando aumentar tus ventas, generar leads de alta calidad o promocionar un producto o servicio, estamos listos para crear landing pages que superen tus expectativas. Confía en nosotros para proporcionarte una presencia en línea impactante y efectiva que convierta visitantes en clientes leales.
     

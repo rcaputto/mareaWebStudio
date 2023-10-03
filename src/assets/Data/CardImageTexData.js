@@ -5,7 +5,7 @@ const CardImageTextData =[{
 },
 {
     id: 2,
-    texto:"Mi nombre es Rodolfo, soy Programador Web Full Stack y el encargado del desarrollo web dentro de Marea. Me encanta programar y buscar fucionalidades centradas en el atractivo estético. Mi aporte al estudio no es exclusivamente el desarrollo. Cuento con un background heterogéneo que me permite lograr un enfoque particular a las necesidades. Antes de ingresar al mundo de la programación, transité algunos años por el universo académico. Soy Licenciado en Ciencias Sociales y Humanidades, terminé una Maestría en la misma especialidad, aunque aún no he completado mi tesis. Esta experiencia me dió excelentes herramientas de investigación, que actualmente puedo aplicar en el desarrollo web para poder definir las necesidades de nuestros clientes. Mi vínculo con la tecnología viene del mundo laboral. Hace muchos años que trabajo en el rubro de las telecomunicaciones, lo cual me permitió aprender la parte hard para así tener un concepto integral del universo it.",
+    texto:"Somos un equipo dinámico y eficiente que se especializa en ayudar a particulares, emprendedores y empresas a alcanzar sus objetivos en línea. Nuestra combinación de habilidades técnicas y experiencia en marketing nos permite ofrecer soluciones web personalizadas que no solo son atractivas y funcionales, sino también efectivas para impulsar el crecimiento y la visibilidad de nuestros clientes en el mundo digital. Estamos comprometidos en brindar un servicio de calidad y resultados tangibles a cada proyecto en el que nos involucramos.",
     imagen:''
 },
 {

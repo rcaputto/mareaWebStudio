@@ -50,7 +50,7 @@
     @media (max-width: 480px) {
       .contentServicios {
         width: 90%;
-        height: 90vh; /* Cambia el ancho del contenido en pantallas aún más pequeñas */
+         /* Cambia el ancho del contenido en pantallas aún más pequeñas */
       }
     
       .contentServicios h1 {
@@ -64,19 +64,19 @@
 /*FIN HEADER*/
 
 .imagenPrincipal{
-    width: 85%;
-    height: 60vh;
+    width: 60%;
+    height: 75vh;
     object-fit: cover;
     margin: auto;
-    margin-bottom: 2rem;
+    
 }
 .imagenSecundaria{
     width: 70%;
     margin: 2rem 0 2rem 0;
 }
 .serviciosContainer{
-    
     background-color: #f4f4f4;
+    margin: 0 3rem;
     
 }
 .serviciosContainer h1{
@@ -86,20 +86,35 @@
 .serviciosContainer h2{
     font-size: 36px;
     margin-bottom: 4rem;
+    font-weight: bold;
+    border-bottom: 1px black solid;
+    color: #34495e;
     
 }
 .serviciosContainer p{
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
+    
+}
+.parteI{
+  display: flex;
+}
+.articleText{
+  padding: 2rem;
 }
 #parrafo1{
     font-size: 32px;
     font-weight: bold;
+    color: #f39c12;
 }
 
-@media (min-width: 320px) and (max-width: 780px){
+@media (min-width: 320px) and (max-width: 767px){
+  .serviciosPage{
+    height: 10rem;
+  }
     .serviciosContainer{
-        margin: 1rem 4rem 0 4rem;
+        margin: 0 0.5rem;
+        
         
     }
     .serviciosContainer h1{
@@ -114,4 +129,20 @@
         margin-bottom: 4rem;
         
     }
+    .parteI{
+      display: block;
+
+    }
+    .articleText{
+      padding: 0;
+    }
+}
+@media (min-width: 729px) and (max-width: 1023px){
+  .parteI{
+    display: block;
+
+  }
+  .articleText{
+    padding: 0;
+  }
 }

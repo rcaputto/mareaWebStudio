@@ -7,7 +7,8 @@ import '../assets/Styles/QuienesSomos.css'
 import FooterWithLogo from './FooterWithLogo';
 import NavBarNewLink from '../Components/NavBarNewLink';
 import { useEffect } from "react";
-import fotoPerfil from '../assets/Images/fotoPerfil.jpeg'
+import quienesSomos from '../assets/Images/quinesSomos.png'
+import ButtonContacto from "../Components/ButtonContacto";
 
 
 export default function QuienesSomos() {
@@ -30,18 +31,15 @@ export default function QuienesSomos() {
                 En <span className='marca'>Marea Web Studio</span>  nos dedicamos a facilitar la inserción y el crecimiento en el mundo digital para emprendedores y empresas. 
                 </h3>
             </div>
-            <div className='nosotros'>
+            <div className='nosotros divisionUs'>
                 <h3 className='copyNosotros'>{CardImageTextData[1].texto}</h3>
-                <img className='imagenNosotros' src={fotoPerfil} alt='img' />
+                <img className='imagenNosotros ' src={quienesSomos} alt='img' />
             </div>
-            <div className='nosotros'>
-                <img className='imagenNosotros' src={imagen} alt='img' />
-                <h3 className='copyNosotros'>{CardImageTextData[2].texto}</h3>
-            </div>
+            
             <div className='nosotros'>
                 <h3 className='copyNosotros'>{CardImageTextData[3].texto}</h3>
-
             </div>
+            <ButtonContacto/>
             <FooterWithLogo />
         </>
     )

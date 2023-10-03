@@ -11,19 +11,25 @@ export default function DesarrolloWeb (){
       }, []);
     return (
         <>
-            <ServiciosCard
-                id={data.id}
-                imagen1={data.imagen1}
-                imagen2={data.imagen2}
-                titulo={data.titulo}
-                subtitulo={data.subtitulo}
-                parrafo1={data.parrafo1}
-                parrafo2={data.parrafo2}
-                parrafo3={data.parrafo3}
-                parrafo4={data.parrafo4}
-                parrafo5={data.parrafo5}
-                cierre={data.cierre}
-            />
+        <ServiciosCard
+        id={data.id}
+        imagen1={data.imagen1}
+        imagen2={data.imagen2}
+        titulo={data.titulo}
+        subtitulo={data.subtitulo}
+        item1 = {data.item1}
+        item2 = {data.item2}
+        item3 = {data.item3}
+        item4 = {data.item4}
+        item5 = {data.item5}
+        parrafo1={data.parrafo1}
+        parrafo2={data.parrafo2}
+        parrafo3={data.parrafo3}
+        parrafo4={data.parrafo4}
+        parrafo5={data.parrafo5}
+        cierre={data.cierre}
+    />
+    
       </>
     )
 }

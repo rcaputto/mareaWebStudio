@@ -73,7 +73,7 @@ export default function CopyServices() {
             <Slide
               direction="up"
               delay={500}>
-              <Col sm ><h1 className="titulo">Landing Pages</h1>
+              <Col sm ><h1 className="titulo">Landing Page</h1>
                 <Card.Text id="parrafoServices" className="parrafo">Cuando se trata de captar la atención y convertir visitantes en clientes, las landing pages son la clave. Diseñamos landing pages persuasivas y enfocadas en la acción que maximizan tus conversiones.
                   Cada elemento está diseñado estratégicamente para guiar a tus visitantes hacia el objetivo final.
                 </Card.Text></Col>
