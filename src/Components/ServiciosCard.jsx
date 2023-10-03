@@ -28,9 +28,9 @@ export default function ServiciosCard ({id, imagen1, imagen2, titulo, subtitulo,
             </div>
             <img className='imagenPrincipal' src={imagen1} alt="img"/>
             </article>
-            <img className='imagenSecundaria' src={imagen2} alt="img"/>
             <p id='parrafo1'>{item4} </p>
             <p>{parrafo4} </p>
+            <img className='imagenSecundaria' src={imagen2} alt="img"/>
             <p id='parrafo1'>{item5} </p>
             <p>{parrafo5} </p>
             <p>{cierre} </p>
