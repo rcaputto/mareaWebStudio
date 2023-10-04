@@ -17,9 +17,8 @@ export default function CopyServices() {
           <Col sm={12}>
 
             <h1 className="titulo tituloPrincipal" id='servicios'>Nuestros Servicios</h1>
-            <Card.Text id="parrafoServices" className="parrafo parrafoPrincipal">Impulsamos tu presencia en línea y potenciamos tu negocio a través de una
-              combinación única de innovación y estrategia. En <span className='marca'>Marea Web Studio</span>,
-              ofrecemos una gama completa de servicios diseñados para llevar tu marca al siguiente nivel.
+            <Card.Text id="parrafoServices" className="parrafo parrafoPrincipal"> En <span className='marca'>Marea Web Studio</span>,
+              ofrecemos una gama completa de servicios pensados potenciar tu marca.
             </Card.Text>
           </Col>
         </Row>
@@ -27,63 +26,62 @@ export default function CopyServices() {
         <Row>
           <Col sm className="fondoServicios">
             <Slide
-              direction="up">
+              direction="up"
+              triggerOnce='true'>
 
               <Col lg  >
 
                 <h1 className="titulo">Desarrollo Web</h1>
-                <Card.Text id="parrafoServices" className="parrafo">Desde sitios web cautivadores hasta plataformas interactivas,
-                  creamos experiencias en línea que dejan huella. Nuestro equipo de expertos en desarrollo web
-                  transformará tu visión en un sitio fluido, responsivo y estéticamente impresionante.
+                <Card.Text id="parrafoServices" className="parrafo">Creamos sitios web profesionales y de gran calidad para su negocio, empresa y/o servicio. Landing Page, Tienda On Line, E-Commerce, Catálogo de Productos, Blogs, Sitios Corporativos, Institucionales y Personales...
                 </Card.Text>
 
               </Col>
             </Slide>
-            <Button><Link style={linkStyle} to='/servicios/desarrollo-web' >Más info</Link></Button>
+            <Button className="button"><Link style={linkStyle} to='/servicios/desarrollo-web' >Más info</Link></Button>
           </Col>
           <Col sm className="fondoServicios">
             <Slide
               direction="up"
-              delay={500}>
+              delay={500}
+              triggerOnce='true'>
               <Col sm><h1 className="titulo">Marketing Digital</h1>
-                <Card.Text id="parrafoServices" className="parrafo">Haz que tu voz sea escuchada en el ruido digital. A través de estrategias de marketing digital personalizadas, aumentamos tu visibilidad, generamos leads y construimos relaciones duraderas con tu audiencia. Ya sea SEO,
-                  publicidad en redes sociales o marketing de contenidos, estamos aquí para hacer brillar tu marca.
+                <Card.Text id="parrafoServices" className="parrafo">Utilizamos estrategias de marketing digital personalizadas para aumentar tu visibilidad y crear relaciones duraderas con tus clientes. Mediante SEO, publicidad en redes sociales o marketing de contenidos, te ayudamos a promocionar tu página.
                 </Card.Text></Col>
             </Slide>
-            <Button><Link style={linkStyle} to='/servicios/marketing-digital' >Más info</Link></Button>
+            <Button className="button"><Link style={linkStyle} to='/servicios/marketing-digital' >Más info</Link></Button>
             </Col>
         </Row>
         <Row>
           <Col sm className="fondoServicios mDigital">
             <Slide
-              direction="up">
+              direction="up"
+              triggerOnce='true'>
 
               <Col sm><h1 className="titulo">Tienda en línea</h1>
                 <Card.Text id="parrafoServices" className="parrafo">
-                  Lleva tu negocio al mundo digital con una tienda en línea que cautiva y convierte. Diseñamos plataformas de comercio electrónico que no solo se ven increíbles, sino que también están optimizadas para el éxito. Desde la navegación
-                  fluida hasta el proceso de compra seguro, creamos experiencias de compra en línea excepcionales
+                   Diseñamos tiendas en línea autogestionables y responsive (adaptadas a distintos dispositivos). Incluye productos ilimitados, carrito de compras, pago con tarjetas, registro y login de usuarios.
                 </Card.Text>
                 <Card.Text>
                 </Card.Text>
               </Col>
               </Slide>
-              <Button><Link style={linkStyle} to='/servicios/tienda-en-linea' >Más info</Link></Button>
+              <Button className="button"><Link style={linkStyle} to='/servicios/tienda-en-linea' >Más info</Link></Button>
           </Col>
           <Col sm className="fondoServicios">
             <Slide
               direction="up"
-              delay={500}>
+              delay={500}
+              triggerOnce='true'>
               <Col sm ><h1 className="titulo">Landing Page</h1>
-                <Card.Text id="parrafoServices" className="parrafo">Cuando se trata de captar la atención y convertir visitantes en clientes, las landing pages son la clave. Diseñamos landing pages persuasivas y enfocadas en la acción que maximizan tus conversiones.
-                  Cada elemento está diseñado estratégicamente para guiar a tus visitantes hacia el objetivo final.
+                <Card.Text id="parrafoServices" className="parrafo"> Diseñamos landing pages persuasivas y enfocadas en convertir visitantes en clientes, ofrecer información relevante y una llamada a la acción clara y específica.
                 </Card.Text></Col>
             </Slide>
-            <Button><Link style={linkStyle} to='/servicios/landing-page' >Más info</Link></Button>
+            <Button className="button"><Link style={linkStyle} to='/servicios/landing-page' >Más info</Link></Button>
           </Col>
         </Row>
         <Card.Text className="callToAction" >
           ¿Estás listo para impulsar tu marca en el mundo digital?
-          ¡Contáctanos hoy mismo y juntos haremos que tus sueños digitales se hagan realidad!
+          ¡Ponte en contacto con nosotros!
         </Card.Text>
       </Container>
 

@@ -19,10 +19,10 @@ export default function Copy2(){
                     duration={'2500'}>
                     <Card.Text className="copyText">
                     <ul className="beneficios">
-                    <li><span className='tituloCopy'>Diseño Web Moderno para Tu Marca:</span> Creamos sitios web funcionales y atractivos que reflejan la esencia de tu marca </li>
-                    <li><span className='tituloCopy'>Estrategias de Marketing Digital:</span> Desde SEO y redes sociales hasta campañas de anuncios, maximizamos tu visibilidad en línea. </li>
-                    <li><span className='tituloCopy'>Experiencia del Usuario Mejorada:</span> Priorizamos la usabilidad y la interacción para lograr conversiones efectivas </li>
-                    <li><span className='tituloCopy'>Datos que Impulsan Decisiones:</span> Utilizamos análisis y métricas para optimizar continuamente tus estrategias en línea </li>
+                    <li><span className='tituloCopy'>Diseño Web Moderno para Tu Marca:</span> Creamos sitios web funcionales y atractivos que reflejan la esencia de tu marca. </li>
+                    <li><span className='tituloCopy'>Estrategias de Marketing Digital:</span> Desde SEO y redes sociales hasta campañas de anuncios, maximizamos tu visibilidad en la web. </li>
+                    <li><span className='tituloCopy'>Experiencia del Usuario Mejorada:</span> Priorizamos la usabilidad y la interacción lograr una llegada más eficaz a los usuarios. </li>
+                    <li><span className='tituloCopy'>Datos que Impulsan Decisiones:</span> Utilizamos análisis y métricas para optimizar continuamente tus estrategias en línea. </li>
                     <li><span className='tituloCopy'>Crecimiento Medible:</span> Nuestro enfoque integral garantiza que cada paso esté alineado con tus objetivos de negocio. </li>
                     </ul>
                     </Card.Text>

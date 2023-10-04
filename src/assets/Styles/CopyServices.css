@@ -22,12 +22,18 @@
 }
 .fondoServicios{
     margin-left: 2rem;
-    box-shadow: -6px -12px 102px -61px #2ecc71;
-    -webkit-box-shadow: -6px -12px 102px -61px #2ecc71;
-    -moz-box-shadow: -6px -12px 102px -61px #2ecc71;
+    
+    box-shadow: -6px -12px 102px -61px black;
+    -webkit-box-shadow: -6px -12px 102px -61px black;
+    -moz-box-shadow: -6px -12px 102px -61px black;
+    
+}
+.button{
+    margin-bottom: 2rem;
 }
 .parrafoPrincipal{
     padding: 0 3rem 0 3rem;
+    text-align: center;
 }
 
 @media (max-width:768px){
