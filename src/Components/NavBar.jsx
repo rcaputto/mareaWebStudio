@@ -26,7 +26,6 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto enlaces">
             <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href='#inicio'> Inicio</a></Nav>
-            <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
             <NavDropdown title="Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={closeMenu} ><Link style={linkStyle} to='/servicios/desarrollo-web' >Desarrollo Web</Link></NavDropdown.Item>
               <NavDropdown.Item onClick={closeMenu} ><Link style={linkStyle} to='/servicios/marketing-digital' >Marketing Digital</Link></NavDropdown.Item>
@@ -36,6 +35,7 @@ function NavBar() {
             <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href='#portfolio'> Portfolio</a></Nav>
             <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href='#planes'> Planes</a></Nav>
             <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>
+            <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
             <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href="http://wa.me/+543416165987" target='blank'  >Contacto</a></Nav>
           </Nav>
         </Navbar.Collapse>

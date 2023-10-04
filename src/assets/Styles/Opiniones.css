@@ -20,7 +20,7 @@
     margin: 0 0 0 5rem;
 }
 .autorOpinion{
-    margin-left: 8rem;
+    margin-left: ;
     font-weight: bold;
 }
 @media(min-width:320px){
@@ -43,8 +43,9 @@
 @media(min-width:1024px){
     .opinionesCards{
         flex-direction: row;
-        margin-left: auto;
-        width:100%;
+        
+        margin: auto;
+        width:50%;
     }
 }
 

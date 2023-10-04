@@ -23,6 +23,17 @@ export default function LastWorks (){
         </Card.Body>
       </Card>
       <Card>
+        <Card.Img variant="top" src={foto3} />
+        <Card.Body>
+        <Card.Title><span className="tituloPorfolio"><a href="https://gustavopapaane.vercel.app/" target="_blank">Gustavo Papaane Art</a> </span></Card.Title>
+        <Card.Text className="parrafo parrafoPorfolio">
+        A través de una elegante página web, dimos vida a la historia y obra del artista plástico. 
+        Detallamos su trayectoria en una cautivadora biografía y presentamos sus creaciones en un entorno virtual único. Fusionamos 
+        diseño y narrativa para brindar una experiencia envolvente que resalta la esencia del artista.
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      <Card>
         <Card.Img variant="top" src={foto2} />
         <Card.Body>
           <Card.Title><span className="tituloPorfolio"><a href="https://dwedding.vercel.app/" target="_blank">Dream Wedding</a> </span></Card.Title>
@@ -33,17 +44,6 @@ export default function LastWorks (){
             Buscamos capturar la esencia de la empresa en un
              diseño fluido, brindando a los visitantes una visión completa de sus ofertas
               excepcionales.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src={foto3} />
-        <Card.Body>
-        <Card.Title><span className="tituloPorfolio"><a href="https://gustavopapaane.vercel.app/" target="_blank">Gustavo Papaane Art</a> </span></Card.Title>
-        <Card.Text className="parrafo parrafoPorfolio">
-        A través de una elegante página web, dimos vida a la historia y obra del artista plástico. 
-        Detallamos su trayectoria en una cautivadora biografía y presentamos sus creaciones en un entorno virtual único. Fusionamos 
-        diseño y narrativa para brindar una experiencia envolvente que resalta la esencia del artista.
           </Card.Text>
         </Card.Body>
       </Card>

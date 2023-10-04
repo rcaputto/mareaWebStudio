@@ -17,9 +17,7 @@ export default function Opiniones(){
            <img className='estrellas' src={estrellas} alt='img'/>
            <Slide>
             <Card.Text className='copyOpiniones'>
-            "Estoy agradecido con la increíble landing page que han creado para mí. 
-            Lograron capturar mi biografía y mis obras de una manera auténtica y visualmente atractiva.
-            ¡Gracias por su talento y dedicación!" <span className='autorOpinion'> Gustavo Papaane Art</span>
+            "Muchas gracias por el servicio. Cumplieron con lo que necesitaba en el tiempo pactado. Súper recomendable" <span className='autorOpinion'> Gustavo Papaane Art</span>
             </Card.Text>
             </Slide>
            </Card> 
@@ -28,10 +26,7 @@ export default function Opiniones(){
            <Slide
            direction='right'>
             <Card.Text className='copyOpiniones'>
-            "Estamos felices con la landing page que has creado para nuestro negocio de wedding planner
-            Las imágenes y descripciones que incorporaste reflejan perfectamente la calidad y atención al detalle que ofrezco a mis clientes. 
-            Tu habilidad para traducir mi visión en una página web hermosa y funcional es asombrosa.
-             ¡Gracias por tu dedicación y por hacer que mi negocio brille en línea!"<span className='autorOpinion'> The Dream Wedding</span>
+            "Excelente! Entendieron muy bien la idea que queríamos plasmar en nuestra web"<span className='autorOpinion'> The Dream Wedding</span>
             </Card.Text>
             </Slide>
            </Card> 

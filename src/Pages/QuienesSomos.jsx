@@ -1,6 +1,4 @@
 import CardImageTextData from "../assets/Data/CardImageTexData";
-import imagen from '../assets/Images/ecommerce3.jpg';
-import imagen5 from '../assets/Images/tablet YLentes.jpg';
 import imagen6 from '../assets/Images/FondoNosotros.jpg'
 import logo from '../assets/Images/logoGrande.png'
 import '../assets/Styles/QuienesSomos.css'

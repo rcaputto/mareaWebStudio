@@ -18,3 +18,13 @@
     object-fit: cover;
     
 }
+@media (min-width: 320px) and (max-width: 767px){
+  .social-bar-whatsapp{
+    margin-left: 78%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+  .social-bar-whatsapp{
+    margin-left: 90%;
+  }
+}

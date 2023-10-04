@@ -71,7 +71,7 @@
     
 }
 .imagenSecundaria{
-    width: 70%;
+    width: 40%;
     margin: 2rem 0 2rem 0;
 }
 .serviciosContainer{
@@ -99,6 +99,9 @@
 .parteI{
   display: flex;
 }
+.parteII{
+  margin: 0 2rem;
+}
 .articleText{
   padding: 2rem;
 }
@@ -106,6 +109,7 @@
     font-size: 32px;
     font-weight: bold;
     color: #f39c12;
+    margin-bottom: -0.5rem;
 }
 
 @media (min-width: 320px) and (max-width: 767px){

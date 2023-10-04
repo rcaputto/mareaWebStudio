@@ -48,12 +48,14 @@
   }
   .blogContent
   h1 {
+    font-family: 'Poppins', sans-serif;
     width: 90%;
     margin: auto;
     font-size: 64px;
-    font-weight:bolder;
-    color: black;
+    font-weight:900;
+    color: #f39c12;
     text-align: center;
+    margin-top: 9rem;
   }
   .blogContent
   p {

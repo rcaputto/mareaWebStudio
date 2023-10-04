@@ -5,7 +5,7 @@ const CardImageTextData =[{
 },
 {
     id: 2,
-    texto:"Somos un equipo dinámico y eficiente que se especializa en ayudar a particulares, emprendedores y empresas a alcanzar sus objetivos en línea. Nuestra combinación de habilidades técnicas y experiencia en marketing nos permite ofrecer soluciones web personalizadas que no solo son atractivas y funcionales, sino también efectivas para impulsar el crecimiento y la visibilidad de nuestros clientes en el mundo digital. Estamos comprometidos en brindar un servicio de calidad y resultados tangibles a cada proyecto en el que nos involucramos.",
+    texto:"Somos un equipo dinámico y eficiente que se especializa en ayudar a particulares, emprendedores y empresas a alcanzar sus objetivos en línea. Nuestra combinación de habilidades técnicas y experiencia en marketing nos permite ofrecer soluciones web personalizadas  atractivas,  funcionales y efectivas para impulsar el crecimiento y la visibilidad de nuestros clientes en el mundo digital. Estamos comprometidos en brindar un servicio de calidad y resultados tangibles a cada proyecto en el que nos involucramos.",
     imagen:''
 },
 {
@@ -15,7 +15,7 @@ const CardImageTextData =[{
 },
 {
     id: 4,
-    texto:"En Marea Web Studio, no solo creamos sitios web y campañas de marketing, sino que también forjamos relaciones duraderas y te acompañamos en tu viaje digital. Si deseas iniciar o expandir tu presencia en línea, estamos aquí para convertir tus ideas en resultados reales.",
+    texto:"En Marea Web Studio, creamos sitios web y campañas de marketing centrándonos en crear relaciones duraderas en tu viaje digital. Si deseas iniciar o expandir tu presencia en línea, estamos aquí para convertir tus ideas en resultados reales.",
     imagen:''
 }]
 
