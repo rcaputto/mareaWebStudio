@@ -113,6 +113,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px){
+  .imagenSecundaria{
+    width: 100%;
+    
+}
   .serviciosPage{
     height: 10rem;
   }
@@ -142,6 +146,10 @@
     }
 }
 @media (min-width: 729px) and (max-width: 1023px){
+  .imagenSecundaria{
+    width: 75%;
+    
+}
   .parteI{
     display: block;
 

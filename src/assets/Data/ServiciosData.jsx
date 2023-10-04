@@ -12,8 +12,8 @@ const ServiciosData =[{
     id: 1,
     imagen1: imagenDesarrolloWeb,
     imagen2: imagenDesarrolloWeb1 ,
-    titulo: `Servicios de Desarrollo Web Personalizados`,
-    subtitulo:`Estamos para ayudarte a destacar en línea y llevar tus ideas a la realidad digital`,
+    titulo: `Desarrollo Web Personalizados`,
+    subtitulo:`Creamos tu Página Web a medida`,
     descripcion:`Desde sitios web cautivadores hasta plataformas interactivas, en Marea Web Studio creamos experiencias en línea que destacan en el ámbito local. Nos dedicamos a convertir tus ideas en un sitio web fluido, altamente responsivo y estéticamente impresionante, adaptado a las necesidades de tu audiencia.
     Nos apasiona transformar tus conceptos en sitios web excepcionales que no solo sean visualmente atractivos, sino también altamente funcionales y optimizados para brindar resultados sobresalientes. En cada proyecto, nos esforzamos por crear un diseño web responsivo que se adapte perfectamente a cualquier dispositivo, asegurando una experiencia de usuario excepcional en computadoras de escritorio, tabletas y teléfonos móviles.`,
     item1:`Diseño Web de Impacto.`,
@@ -33,8 +33,8 @@ const ServiciosData =[{
     id: 2 ,
     imagen1: marketingDigitalI,
     imagen2: marketingDigital,
-    titulo: `Impulsa tu Presencia en Línea con Nuestros Servicios de Marketing Digital`,
-    subtitulo:`Nos orientamos a los resultados`,
+    titulo: ` Marketing Digital`,
+    subtitulo:`Estrategias pensadas para Emprendedores, Pymes, Instituciones y Empresas`,
     descripcion:`En nuestro estudio de desarrollo web y marketing digital, te ofrecemos una amplia gama de servicios de marketing digital que están diseñados para llevar tu negocio al siguiente nivel en línea. Nos especializamos en estrategias de marketing digital personalizadas que se adaptan a tus necesidades específicas y objetivos comerciales.`,
     item1:`Optimización de Motores de Búsqueda (SEO):`,
     item2:`Publicidad en Línea (SEM):`,
@@ -43,23 +43,18 @@ const ServiciosData =[{
     item5:`Email Marketing: `,
     parrafo1:`Impulsamos tu visibilidad en los motores de búsqueda para aumentar tu tráfico orgánico y mejorar tu clasificación en Google.`,
     parrafo2:`Creamos y gestionamos campañas publicitarias efectivas en plataformas como Google Ads y redes sociales para aumentar tus conversiones y ROI.`,
-    parrafo3:`Generamos contenido valioso y relevante que atrae a tu audiencia, mejora la retención y construye tu autoridad en línea.`,
+    parrafo3:`Generamos contenido valioso y relevante que atrae a tu audiencia y mejora la retención de tus clientes`,
     parrafo4:`Creamos y gestionamos estrategias de redes sociales para aumentar el compromiso, construir una comunidad leal y fortalecer la presencia de tu marca.`,
-    parrafo5:`Diseñamos campañas de correo electrónico personalizadas que fomentan la lealtad del cliente y aumentan las conversiones.`,
-    cierre:`En Marea Web Studio, estamos comprometidos a impulsar tu éxito en línea a través de estrategias de marketing digital probadas y personalizadas. Con nuestros servicios de SEO, publicidad en línea, marketing de contenido, gestión de redes sociales y más, estamos listos para llevar tu presencia en línea al siguiente nivel.
-
-    Confía en nosotros para diseñar estrategias que generen resultados medibles y duraderos. Ya sea que estés buscando aumentar la visibilidad en los motores de búsqueda, atraer a una audiencia comprometida en las redes sociales o crear contenido atractivo, estamos aquí para ayudarte.
-    
-    No importa cuáles sean tus objetivos en línea, estamos listos para trabajar contigo y superar tus expectativas. ¡Juntos, haremos que tu negocio brille en el mundo digital!
-    
-    Contáctanos hoy mismo para comenzar tu viaje hacia el éxito en línea.`,
+    parrafo5:`Diseñamos campañas de correo electrónico personalizadas que fomentan la lealtad de tus clientes acercándoles información valiosa para la toma de decisión.`,
+    cierre:`En Marea Web Studio, buscamos forjar relaciones duraderas con tus clientes a través de estrategias de marketing digital personalizadas mediante nuestros servicios de SEO, publicidad en línea, marketing de contenido, gestión de redes sociales y más.
+    Contáctanos hoy mismo para empezar a trabajar!!`,
 },
 {
     id: 3,
     imagen1: landingPageI,
     imagen2: landingPage,
-    titulo: `Landing Pages Persuasivas para Conquistar a tus Visitantes`,
-    subtitulo:`Transformamos Visitantes en Clientes Leales`,
+    titulo: `Landing Pages`,
+    subtitulo:`Transformando Visitantes en Clientes`,
     descripcion:`En nuestro estudio de desarrollo web y marketing digital, ofrecemos servicios de creación de landing pages que están diseñadas para atraer la atención, impulsar las conversiones y maximizar el retorno de inversión (ROI). Nuestro enfoque se basa en la combinación de diseño cautivador y estrategias de marketing efectivas para garantizar que tus landing pages cumplan con tus objetivos comerciales.`,
     item1:`Diseño Visual Impactante`,
     item2:`Contenido Persuasivo`,
@@ -79,19 +74,19 @@ const ServiciosData =[{
     imagen1: imagenDesarrolloWeb1 ,
     imagen2: tienda1,
     titulo: `Diseño y Desarrollo de Tiendas en Línea`,
-    subtitulo:`Llevamos tu Negocio al Mundo Digital con Tiendas en Línea de Gran Rendimiento`,
+    subtitulo:`Tu negocio On Line`,
     descripcion:`En nuestro estudio de desarrollo web, te ofrecemos soluciones integrales para la creación de tiendas en línea que te permitirán expandir tu presencia en el mercado digital. Sabemos que el comercio electrónico es esencial en la actualidad, y estamos aquí para impulsar tu negocio en línea de manera efectiva y rentable.`,
     item1:`Diseño Personalizado`,
-    item2:`Funcionalidad Avanzada`,
+    item2:`SEO (optimización de motores de búsqueda)`,
     item3:`Optimización para Móviles`,
     item4:`Integración de Redes Sociales`,
     item5:`Mantenimiento Continuo`,
-    parrafo1:`Creamos tiendas en línea atractivas y únicas que se adaptan a la identidad de tu marca y a las expectativas de tus clientes.`,
-    parrafo2:`Desarrollamos tiendas en línea con características avanzadas, como carritos de compra, procesamiento de pagos seguros y opciones de gestión de inventario.`,
+    parrafo1:`Creamos tiendas en línea atractivas y únicas que se adaptan a la identidad de tu marca y a las expectativas de tus clientes. Podrás administrar tus productos en tiempor real, agregando textos descriptivos, imágenes, precios y demás funcionalidades según tu necesidad.`,
+    parrafo2:`Diseñamos tiendas on line amigables para buscadores`,
     parrafo3:`Aseguramos que tu tienda en línea sea completamente receptiva, garantizando una experiencia de compra sin problemas en dispositivos móviles.`,
     parrafo4:`Facilitamos la integración de tus perfiles de redes sociales para llegar a un público más amplio y fomentar la interacción con tus clientes.`,
     parrafo5:`Ofrecemos servicios de mantenimiento para garantizar que tu tienda en línea esté actualizada y funcione sin problemas en todo momento.`,
-    cierre:`En Marea Web Studio, entendemos que tu éxito en línea depende de la calidad y la eficacia de tu tienda en línea. Estamos listos para ayudarte a construir una tienda en línea que no solo cumpla con tus necesidades actuales, sino que también se adapte y crezca con tu negocio a medida que evoluciona en el mundo digital.
+    cierre:`En Marea Web Studio, entendemos que el éxito de tu negocio depende de la calidad y la eficacia de tu tienda en línea. Estamos listos para ayudarte a construir una tienda que no solo cumpla con tus necesidades actuales, sino que también se adapte y crezca con tu negocio a medida que evoluciona en el mundo digital. Tu negocio abierto las 24 hs. los 365 días del año.
 
     Ponte en contacto con nosotros hoy mismo para iniciar tu viaje hacia una tienda en línea exitosa y rentable. Estamos aquí para convertir tus objetivos de comercio electrónico en realidad y llevar tu negocio al siguiente nivel en línea.
     `,
