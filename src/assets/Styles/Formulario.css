@@ -1,34 +1,30 @@
 
-.camposForm{
-    display: flex;
-    justify-content: space-around;
-    padding: 0 6rem;
-    
+.formulario{
+    width: 35%;
+    margin: auto;
+    border-radius: 5%;
+    padding: 3rem 1rem;
+    background-color:#ecf0f1;
+    box-shadow: 9px 12px 5px -7px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 9px 12px 5px -7px rgba(0,0,0,0.84);
+    -moz-box-shadow: 9px 12px 5px -7px rgba(0,0,0,0.84);
 }
-.camposForm Input{
-    width:35rem;
+.fullPage{
+    background-color: #d9dce0;
+    height: 100vh;
 }
-#areaComentarios{
-    width: 85%;
-    height: 10rem;
-    margin-top: 2rem;
+
+.space{
+    height: 5vh;
+    background-color: #d9dce0;
 }
 .submit{
     margin: 1rem;
 }
-@media (min-width:320px) and (max-width: 780px){
-    .camposForm{
-        flex-direction: column;
-    }
-    .camposForm Input{
-        width:100%;
-    }
-}
+
 @media (min-width:781px) and (max-width: 1019px){
     
-    .camposForm Input{
-        width:25rem;
-    }
+    
 }
 
 .encabezado{
@@ -43,7 +39,7 @@
     .encabezado {
       text-align: justify;
       background-color: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para hacer que el texto sea legible */
-      margin-bottom: 2rem;
+      
     }
     .encabezado
     h1 {
@@ -53,4 +49,17 @@
       margin: auto;
       margin-right: 10rem;
     }
-   
+    @media (min-width:320px) and (max-width: 780px){
+        .encabezado{
+            height: 20vh; 
+           
+          }
+        .encabezado
+        h1 {
+          font-size: 42px;
+          font-weight:bolder;
+          color: white;
+          margin: auto;
+          
+        }
+    }
