@@ -30,8 +30,9 @@
   .content
   p {
     font-size: 28px;
-    
-    color: white;
+    text-align: left;
+    font-weight: bold;
+    color: #f39c12;
   }
   
   button {

@@ -1,0 +1,19 @@
+.nombreEmail{
+    display: flex;
+    justify-content: center;
+    
+}
+.nombreEmail input{
+    margin: 1rem;
+    width:30%;
+}
+
+.telefonoAsunto{
+    display: flex;
+    justify-content: center;
+    
+}
+.telefonoAsunto input{
+    margin: 1rem;
+    width:30%;
+}

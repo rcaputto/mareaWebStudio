@@ -9,6 +9,7 @@ import DesarrolloWeb from './Pages/Servicios/DesarrolloWeb';
 import MarketingDigital from './Pages/Servicios/MarketingDigital';
 import LandingPage from './Pages/Servicios/LandingPage';
 import TiendaEnLinea from './Pages/Servicios/TiendaEnLinea';
+import Formulario from './Pages/Formulario';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
           <Route path='/servicios/marketing-digital' element = {<MarketingDigital/> }/>
           <Route path='/servicios/landing-page' element = {<LandingPage /> }/>
           <Route path='/servicios/tienda-en-linea' element = {<TiendaEnLinea /> }/>
+          <Route path='/contacto' element = {<Formulario /> }/>
         </Routes>
       </Router>
     </>

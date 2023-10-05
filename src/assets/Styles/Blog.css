@@ -82,7 +82,8 @@
     }
   
     .blogContent h1 {
-      font-size: 36px; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
+      font-size: 40px;
+      margin-top: 6rem; /* Cambia el tamaño de fuente del título en pantallas pequeñas */
     }
   
     .blogContent p {

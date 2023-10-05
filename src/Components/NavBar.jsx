@@ -36,7 +36,7 @@ function NavBar() {
             <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href='#planes'> Planes</a></Nav>
             <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>
             <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
-            <Nav onClick={closeMenu} className='p-2'><a style={linkStyle} href="http://wa.me/+543416165987" target='blank'  >Contacto</a></Nav>
+            <Nav onClick={closeMenu} className='p-2'><Link style={linkStyle} to ='/contacto' target='blank'  >Contacto</Link></Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>

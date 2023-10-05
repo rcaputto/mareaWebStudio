@@ -20,7 +20,7 @@ export default function LastWorks (){
           <Card.Text className="parrafo parrafoPorfolio">
           En un trabajo personal, desarrollamos una página web dinámica y
           funcional que permite explorar películas en cartelera. 
-          Mediante la integraci´n a una base de datos ofrecemos sinopsis detalladas, información de actores e  imágenes.
+          Mediante la integración a una base de datos ofrecemos sinopsis detalladas, información de actores e  imágenes.
           </Card.Text>
           <Button ><a href="https://peliculas-two.vercel.app/" target="_blank" style={linkStyle}>Visitar sitio web</a></Button>
         </Card.Body>
