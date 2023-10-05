@@ -1,19 +1,56 @@
-.nombreEmail{
+
+.camposForm{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding: 0 6rem;
     
 }
-.nombreEmail input{
+.camposForm Input{
+    width:35rem;
+}
+#areaComentarios{
+    width: 85%;
+    height: 10rem;
+    margin-top: 2rem;
+}
+.submit{
     margin: 1rem;
-    width:30%;
+}
+@media (min-width:320px) and (max-width: 780px){
+    .camposForm{
+        flex-direction: column;
+    }
+    .camposForm Input{
+        width:100%;
+    }
+}
+@media (min-width:781px) and (max-width: 1019px){
+    
+    .camposForm Input{
+        width:25rem;
+    }
 }
 
-.telefonoAsunto{
+.encabezado{
+    background-image: url('/src/assets/Images/contacto.png');
+    background-size: cover;
+    background-position:center;
+    height: 40vh; /* Esto establece la altura del componente al 100% del alto de la ventana */
     display: flex;
-    justify-content: center;
+  }
     
-}
-.telefonoAsunto input{
-    margin: 1rem;
-    width:30%;
-}
+    /* Estilos para el contenido superpuesto */
+    .encabezado {
+      text-align: justify;
+      background-color: rgba(255, 255, 255, 0.0); /* Fondo semi-transparente para hacer que el texto sea legible */
+      margin-bottom: 2rem;
+    }
+    .encabezado
+    h1 {
+      font-size: 72px;
+      font-weight:bolder;
+      color: white;
+      margin: auto;
+      margin-right: 10rem;
+    }
+   

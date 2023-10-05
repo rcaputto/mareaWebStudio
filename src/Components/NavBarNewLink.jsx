@@ -27,7 +27,7 @@ function NavBarNewLink() {
             </NavDropdown>
             <Nav className='p-2'><Link style={linkStyle} to='/blog'>Blog</Link></Nav>
             <Nav className='p-2'><Link style={linkStyle} to='/nosotros' >Quienes somos</Link></Nav>
-            <Nav className='p-2'><a style={linkStyle} href="http://wa.me/+543416165987" >Contacto</a></Nav>
+            <Nav className='p-2'><Link style={linkStyle} to ='/contacto' >Contacto</Link></Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>
