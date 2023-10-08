@@ -19,9 +19,6 @@ export default function Formulario() {
 
     const [isEmailSent, setIsEmailSent] = useState (false)
     
-    
-    
-
     const sendEmail = (data) => {
         console.log('REGISTRO', data)
         console.log('EMAIL', form.current)
@@ -37,13 +34,13 @@ export default function Formulario() {
     }
 
     const resetFields = () => {
-        // Restablece los valores de los campos manualmente
+        
         setValue('nombre', '');
         setValue('telefono', '');
         setValue('email', '');
         setValue('mensaje', '');
 
-         // Restablece el estado de envío de correo
+         
     };;
 
     useEffect(() => {
@@ -64,6 +61,7 @@ export default function Formulario() {
                     "El formulario se ha enviado con éxito, nos comunicaremos a la brevedad. Muchas gracias!"
                 </Alert>
             )}
+                <h2>Envíanos tu consulta</h2>
                 <Form ref={form} onSubmit={handleSubmit(sendEmail)} className='formulario'>
                     <Form.Group>
                         <Form.Label>Nombre</Form.Label>
