@@ -12,7 +12,7 @@ const ServiciosData =[{
     id: 1,
     imagen1: imagenDesarrolloWeb,
     imagen2: imagenDesarrolloWeb1 ,
-    titulo: `Desarrollo Web Personalizados`,
+    titulo: `Desarrollo Web Personalizado`,
     subtitulo:`Creamos tu Página Web a medida`,
     descripcion:`Desde sitios web cautivadores hasta plataformas interactivas, en Marea Web Studio creamos experiencias en línea que destacan en el ámbito local. Nos dedicamos a convertir tus ideas en un sitio web fluido, altamente responsivo y estéticamente impresionante, adaptado a las necesidades de tu audiencia.
     Nos apasiona transformar tus conceptos en sitios web excepcionales que no solo sean visualmente atractivos, sino también altamente funcionales y optimizados para brindar resultados sobresalientes. En cada proyecto, nos esforzamos por crear un diseño web responsivo que se adapte perfectamente a cualquier dispositivo, asegurando una experiencia de usuario excepcional en computadoras de escritorio, tabletas y teléfonos móviles.`,
