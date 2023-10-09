@@ -1,6 +1,7 @@
 import BlogData from '../../assets/Data/BlogData';
 import NavBarNewLink from '../../Components/NavBarNewLink';
 import BlogCard from '../../Components/BlogCard';
+import FooterWithLogo from '../FooterWithLogo';
 import { Row } from 'react-bootstrap';
 import '../../assets/Styles/Blog.css';
 import { useEffect } from 'react';
@@ -30,6 +31,7 @@ function MainBlog() {
           />
         ))}
       </Row>
+      <FooterWithLogo/>
     </>
   );
 }

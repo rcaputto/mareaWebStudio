@@ -18,10 +18,12 @@ export default function Formulario() {
     } = useForm({ mode: 'onChange' })
 
     const [isEmailSent, setIsEmailSent] = useState (false)
-    
+    const [emailUserName, setEmailUserName] = useState ()
+
     const sendEmail = (data) => {
         console.log('REGISTRO', data)
         console.log('EMAIL', form.current)
+        setEmailUserName (data.nombre)
 
         emailjs.sendForm('service_m9knr4m', 'template_p0eawcv', form.current, 'R3GEQvLr2Jan6cebU')
             .then((result) => {
@@ -58,7 +60,7 @@ export default function Formulario() {
             <article className='fullPage' >
             {isEmailSent && (
                 <Alert variant = "success">
-                    "El formulario se ha enviado con éxito, nos comunicaremos a la brevedad. Muchas gracias!"
+                    "Hola {emailUserName}, hemos recibido tu consulta. Te contactaremos a la brevedad. Muchas gracias!"
                 </Alert>
             )}
                 <h2>Envíanos tu consulta</h2>

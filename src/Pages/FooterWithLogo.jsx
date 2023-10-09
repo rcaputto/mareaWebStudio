@@ -17,7 +17,7 @@ export default function FooterWithLogo() {
           <a href='http://instagram.com/mareawebstudio' target='blank' className='me-4 text-reset'>
            <img src={instagram} />
           </a>
-          <a href='' className='me-4 text-reset'>
+          <a href='https://m.facebook.com/profile.php?id=61552337481255' target='blank' className='me-4 text-reset'>
           <img src={facebook} />
           </a>
           <a href='' className='me-4 text-reset'>
