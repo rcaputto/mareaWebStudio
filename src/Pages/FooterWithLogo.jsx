@@ -15,13 +15,13 @@ export default function FooterWithLogo() {
 
         <div>
           <a href='http://instagram.com/mareawebstudio' target='blank' className='me-4 text-reset'>
-           <img src={instagram} />
+           <img src={instagram} alt="imagen" />
           </a>
           <a href='https://m.facebook.com/profile.php?id=61552337481255' target='blank' className='me-4 text-reset'>
-          <img src={facebook} />
+          <img src={facebook} alt="imagen"/>
           </a>
-          <a href='' className='me-4 text-reset'>
-          <Link to='http://wa.me/+543416165987' target='blank'><img src={whatsapp} /></Link> 
+          <a href='#' className='me-4 text-reset'>
+          <Link to='http://wa.me/+543416165987' target='blank'><img src={whatsapp} alt="imagen" /></Link> 
           </a>
         </div>
       </section>

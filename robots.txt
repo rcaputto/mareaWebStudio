@@ -1,3 +1,4 @@
 User-Agent: *
+Disallow: /cpanel/
 
 Sitemap: http://www.mareawebstudio.com.ar/sitemap.xml

@@ -18,7 +18,7 @@ export default function CopyServices() {
 
             <h1 className="titulo tituloPrincipal" id='servicios'>Nuestros Servicios</h1>
             <Card.Text id="parrafoServices" className="parrafo parrafoPrincipal"> En <span className='marca'>Marea Web Studio</span>,
-              ofrecemos una gama completa de servicios pensados potenciar tu marca.
+              ofrecemos una gama completa de servicios pensados potenciar para tu marca.
             </Card.Text>
           </Col>
         </Row>

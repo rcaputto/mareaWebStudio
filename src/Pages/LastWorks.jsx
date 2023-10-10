@@ -14,7 +14,7 @@ export default function LastWorks (){
            <Card.Title ><h1 className="title" >Ultimos trabajos</h1></Card.Title>
            <CardGroup id="cardLastWork">
       <Card >
-        <Card.Img variant="top" src={foto1} />
+        <Card.Img variant="top" src={foto1} alt="imagen" />
         <Card.Body>
           <Card.Title><span className="tituloPorfolio"><a href="https://peliculas-two.vercel.app/" target="_blank">Películas</a></span></Card.Title>
           <Card.Text className="parrafo parrafoPorfolio">
@@ -26,7 +26,7 @@ export default function LastWorks (){
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src={foto3} />
+        <Card.Img variant="top" src={foto3} alt="imagen" />
         <Card.Body>
         <Card.Title><span className="tituloPorfolio"><a href="https://gustavopapaane.vercel.app/" target="_blank">Gustavo Papaane Art</a> </span></Card.Title>
         <Card.Text className="parrafo parrafoPorfolio">
@@ -37,7 +37,7 @@ export default function LastWorks (){
         </Card.Body>
       </Card>
       <Card>
-        <Card.Img variant="top" src={foto2} />
+        <Card.Img variant="top" src={foto2} alt="imagen" />
         <Card.Body>
           <Card.Title><span className="tituloPorfolio"><a href="https://dwedding.vercel.app/" target="_blank">Dream Wedding</a> </span></Card.Title>
           <Card.Text className="parrafo parrafoPorfolio">
