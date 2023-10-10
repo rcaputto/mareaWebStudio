@@ -70,7 +70,7 @@ export default function FooterWithLogo() {
               
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                mareawebstudio@gmail.com
+                info@mareawebstudio.com.ar
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> +543416165987
